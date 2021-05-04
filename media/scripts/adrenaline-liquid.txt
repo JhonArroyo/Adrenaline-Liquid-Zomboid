@@ -1,0 +1,29 @@
+module ADR
+{
+	imports
+	{
+		Base
+	}
+
+	item Adrenaline
+	{
+		HungerChange		= -30,
+		FatigueChange		= -60,
+		unhappyChange		= -20,  
+		ThirstChange		= -60,
+		EnduraceChange		= -80,
+		Weight				= 0.2,
+		UseDelta			= 0.2,
+		Type				= Food,
+		UseWhileEquipped	= FALSE,
+		customContextMenu	= Drink,
+		customEatSound		= Adrenaline-liquid-sound,
+		DisplayName			= Adrenaline Liquid,
+		Packaged  			= TRUE,
+		CantBeFrozen		= TRUE,
+		Icon				= adrenaline,
+		StaticModel 		= PopCanDiet,
+		EatType 			= popcan,
+		
+	}
+}
